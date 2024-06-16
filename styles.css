@@ -39,7 +39,7 @@ body, html {
     display: block;
     width: 100px;
     height: 150px;
-    background-image: url("../img/flower.png");
+    background-image: url("/Pseudo-3D/img/flower.png");
     background-size: cover;
     border-radius: 50%;
     position: absolute;
@@ -59,7 +59,7 @@ body, html {
     display: block;
     width: 200px;
     height: 400px;
-    background-image: url("../img/phone-booth.png");
+    background-image: url("/Pseudo-3D/img/phone-booth.png");
     background-size: cover;
     position: absolute;
     left: 35%;
@@ -70,7 +70,7 @@ body, html {
     width: 200px;
     height: 200px;
     position: absolute;
-    background-image: url("../img/character.png");
+    background-image: url("/Pseudo-3D/img/character.png");
     background-size: cover;
 }
 
@@ -89,7 +89,7 @@ body, html {
 .large-flower {
     width: 100px;
     height: 100px;
-    background-image: url("../img/large-flower.png");
+    background-image: url("/Pseudo-3D/img/large-flower.png");
     background-size: cover;
     border-radius: 50%;
     position: absolute;
