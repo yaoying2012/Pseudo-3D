@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: skyblue;
+    z-index: -101;
+}
+
+.grass {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgb(35, 112, 52);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: -100;
+}
+
+.flower {
+    display: block;
+    width: 100px;
+    height: 150px;
+    background-image: url("/img/flower.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#flower1 {
+    left: 10%;
+    bottom: 50px;
+}
+
+#flower2 {
+    left: 20%;
+    bottom: 20px;
+}
+
+.phone-booth {
+    display: block;
+    width: 200px;
+    height: 400px;
+    background-image: url("/img/phone-booth.png");
+    background-size: cover;
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+}
+
+.character {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("/img/character.png");
+    background-size: cover;
+}
+
+#character1 {
+    left: 60%;
+    bottom: 10%;
+}
+
+#character2 {
+    width: 230px;
+    height: 230px;
+    left: 70%;
+    bottom: 10%;
+}
+
+.large-flower {
+    width: 100px;
+    height: 100px;
+    background-image: url("/img/large-flower.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#large-flower1 {
+    left: 80%;
+    bottom: 60%;
+}
+
+#large-flower2 {
+    left: 90%;
+    bottom: 30%;
+}
