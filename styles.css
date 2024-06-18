@@ -67,7 +67,7 @@ body, html {
 }
 
 .character {
-    width: 200px;
+    width: 70px;
     height: 200px;
     position: absolute;
     background-image: url("/Pseudo-3D/img/character.png");
@@ -80,7 +80,7 @@ body, html {
 }
 
 #character2 {
-    width: 230px;
+    width: 85px;
     height: 230px;
     left: 70%;
     bottom: 10%;
